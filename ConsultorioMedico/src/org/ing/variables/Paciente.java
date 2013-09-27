@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package consultoriomedico.SetGet;
+package org.ing.variables;
 import java.sql.Date;
 /**
  *
  * @author Lupita
  */
 public class Paciente {
-    int cveP;
-    String nombreP;
-    String apellidosP;
-    String direccionP;
-    Date fechaNacimiento;
-    String sexoP;
-    String telefonoP;
-    String correoP;
+    private int cveP;
+    private String nombreP;
+    private String apellidosP;
+    private String direccionP;
+    private Date fechaNacimiento;
+    private String sexoP;
+    private String telefonoP;
+    private String correoP;
 
     public int getCveP() {
         return cveP;

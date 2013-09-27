@@ -3,22 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package metodos;
+package consultoriomedico;
 
 /**
  *
  * @author Lupita
  */
-public class PacienteMetodo {
-    public void SolicitarCita(){
-        
+public class ConsultorioMedico {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
     
-    public void ConfirmarCita(){
-        
-    }
-    
-    public void CancelarCita(){
-        
-    }
 }

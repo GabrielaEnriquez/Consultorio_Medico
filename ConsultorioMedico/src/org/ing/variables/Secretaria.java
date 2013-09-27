@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package consultoriomedico.SetGet;
+package org.ing.variables;
 
 /**
  *
  * @author Lupita
  */
 public class Secretaria {
-    String usuario;
-    String password;
-    String encabezadoCorreo;
-    String direccionDestino;
-    String direccionConsultorio;
-    String descripcionCorreo;
+    private String usuario;
+    private String password;
+    private String encabezadoCorreo;
+    private String direccionDestino;
+    private String direccionConsultorio;
+    private String descripcionCorreo;
     
     
     public String getUsuario() {
